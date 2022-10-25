@@ -8,9 +8,13 @@ public class CustomerSecDao {
 		int status=0;
 		try{
 			Connection con=DB.getConnection();
-			PreparedStatement ps=con.prepareStatement("insert into customer_set(phoneno,pwd) values(?,?)");
-			ps.setString(1,phoneno);
+			PreparedStatement ps=con.prepareStatement("insert into customer_set(phoneno,pwd) values(?,?,?,?)");
+			ps.setString(1,name);
 			ps.setString(2,password);
+			ps.setString(3,email);
+			ps.setString(4,address);
+			ps.setString(5,city);
+			ps.setString(6,contact);
 			status=ps.executeUpdate();
 			con.close();
 		}catch(Exception e){System.out.println(e);}
