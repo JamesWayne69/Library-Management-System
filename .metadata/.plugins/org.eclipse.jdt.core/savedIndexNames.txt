@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+E:\OOAD\Library-Management-System\.metadata\.plugins\org.eclipse.jdt.core
+93075864.index
+1412850543.index
+3068252223.index
+991946127.index
+2623532594.index
