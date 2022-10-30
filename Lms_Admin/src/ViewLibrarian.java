@@ -1,7 +1,6 @@
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
