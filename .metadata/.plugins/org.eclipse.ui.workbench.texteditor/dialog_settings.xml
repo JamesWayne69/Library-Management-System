@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="Login"/>
+		<item key="selection" value="jButton4"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="jButton4"/>
+			<item value="btnAddbooks"/>
 			<item value="NewJFrame"/>
+			<item value="AddBooks"/>
+			<item value="Add"/>
 			<item value="Librarian"/>
 			<item value="lblPublisher"/>
 			<item value="lblCallNo"/>
@@ -16,6 +20,7 @@
 			<item value="lblAu"/>
 		</list>
 		<list key="replacehistory">
+			<item value="AssignFee"/>
 			<item value="Login"/>
 			<item value="Customer"/>
 			<item value="lblAddress"/>
